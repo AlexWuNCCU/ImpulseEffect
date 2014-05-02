@@ -6,7 +6,7 @@ html,th{
 	background-image: url(http://subtlepatterns.com/patterns/dark_mosaic.png); background-position: initial initial; background-repeat: initial initial;
 }
 .eng{
-	font-family: sans-serif;
+	font: sans-serif;
 }
 
 
