@@ -11,7 +11,7 @@ html,th{
 
 
 ol, ul {
-	font:normal 21px;
+	font-size:21px;	
     list-style: none;
 }
 
@@ -155,7 +155,7 @@ th{
 #main-menu li.m1 a{
 
     margin-left: -30px;
-
+    font-size: 21pt;
 }
 
 #main-menu li span{
