@@ -1,0 +1,156 @@
+body,
+html,th{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:13px;
+	color: white;
+	background-image: url(http://subtlepatterns.com/patterns/dark_mosaic.png); background-position: initial initial; background-repeat: initial initial;
+}
+
+
+ol, ul {
+    list-style: none;
+}
+
+#main-menu{
+	position: fixed; 
+    height:75px;
+    line-height:75px;
+    background:rgba(92, 181, 159, 0.9);
+    width:1100px;
+    margin-left:-100px;
+    margin-top:1px;
+    z-index: 3;
+}
+
+.video{
+	margin-top:100px;
+	z-index: 3;
+}
+.intro_pic1{
+	position:relative;
+	left: -20px;
+	top: 10px;
+	margin-bottom: 10px;
+}
+.intro_pic2{
+	position:relative;
+	left: 30px;
+	top: -10px;
+}
+
+
+.intro_words1{
+	font-size: 30px;
+	margin-left:400px;
+	margin-top: -200px;
+}
+
+.intro_words2{
+	position: relative;
+	font-size: 16px;
+	left: -20px;
+	top: 60px;
+}
+
+.video_back{
+
+	z-index: 0;
+	top: 330px;
+	left: 800px;
+	width: 600px;
+	height: 400px;
+}
+
+.introduction{
+	margin-top: 100px;
+}
+
+.related_websites{
+	position: relative;
+	left: 270px;
+	bottom: 330px;
+}
+
+.impulse_href{
+
+}
+
+.Reservation{
+	position: relative;
+	margin-top:120px;
+	left: -100px;
+	z-index: 1;
+}
+.below{
+	position: relative;
+	top: 1200px;
+}
+.staff{
+	position: relative;
+	margin-top:280px;
+	left: 0px;
+	z-index: 1;
+}
+
+.staff_pic{
+	position: relative;
+	left: 90px;
+}
+
+.staff_words{
+	position: relative;
+	left: 800px;
+	bottom: 470px;
+	font-size:16pt;
+}
+
+.form_fill{
+	font-size: 16pt;
+	position: relative;
+	margin-left: 850px;
+	margin-top: -530px;
+}
+.form_pic{
+	position: relative;
+	left: 0px;
+
+}
+th{
+	font-size: 12pt;
+}
+
+#main-menu a {
+    display:block;
+    height:75px;
+    color:#fff;
+    font:normal 21px sans-serif;
+    text-transform:uppercase;
+    text-decoration:none;
+    border-right:1px solid #4c907f;
+}
+
+#main-menu li{
+    float:left;
+}
+
+
+#main-menu li a{
+    width:225px;
+    text-align:center;
+}
+#main-menu li.m1 a{
+
+    margin-left: -30px;
+
+}
+
+#main-menu li span{
+    display:inline-block;
+    padding-top:25px;
+    padding-bottom:2px;
+}
+
+
+#main-menu a:hover span{
+    text-decoration:underline;
+}
