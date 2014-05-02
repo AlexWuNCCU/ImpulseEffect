@@ -21,7 +21,10 @@ ol, ul {
     margin-top:1px;
     z-index: 3;
 }
-
+.staff_location{
+	position: relative;
+	margin-bottom: 00px;
+}
 .video{
 	margin-top:100px;
 	z-index: 3;
@@ -68,7 +71,7 @@ ol, ul {
 .related_websites{
 	position: relative;
 	left: 270px;
-	bottom: 330px;
+	bottom: 20px;
 }
 
 .impulse_href{
@@ -77,8 +80,8 @@ ol, ul {
 
 .Reservation{
 	position: relative;
-	margin-top:120px;
-	left: -100px;
+	margin-top:100px;
+	left: -80px;
 	z-index: 1;
 }
 .below{
@@ -95,26 +98,33 @@ ol, ul {
 .staff_pic{
 	position: relative;
 	left: 90px;
+	top: -170px;
 }
 
 .staff_words{
 	position: relative;
 	left: 800px;
-	bottom: 470px;
+	bottom: 640px;
 	font-size:16pt;
 }
 
 .form_fill{
 	font-size: 16pt;
 	position: relative;
-	margin-left: 850px;
+	margin-left: 960px;
 	margin-top: -530px;
 }
 .form_pic{
 	position: relative;
-	left: 0px;
+	left: -80px;
 
 }
+
+.relate{
+	position: absolute;
+	top: 0px;
+}
+
 th{
 	font-size: 12pt;
 }
