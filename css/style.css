@@ -5,6 +5,9 @@ html,th{
 	color: white;
 	background-image: url(http://subtlepatterns.com/patterns/dark_mosaic.png); background-position: initial initial; background-repeat: initial initial;
 }
+.eng{
+	font-family: sans-serif;
+}
 
 
 ol, ul {
@@ -133,7 +136,7 @@ th{
     display:block;
     height:75px;
     color:#fff;
-    font:normal 21px sans-serif;
+    font:normal 21px;
     text-transform:uppercase;
     text-decoration:none;
     border-right:1px solid #4c907f;
