@@ -132,7 +132,7 @@ th{
 	font-size: 12pt;
 }
 
-#main-menu a {
+.main-menu a {
     display:block;
     height:75px;
     color:#fff;
@@ -142,28 +142,28 @@ th{
     border-right:1px solid #4c907f;
 }
 
-#main-menu li{
+.main-menu li{
     float:left;
 }
 
 
-#main-menu li a{
+.main-menu li a{
     width:225px;
     text-align:center;
 }
-#main-menu li.m1 a{
+.main-menu li.m1 a{
 
     margin-left: -30px;
 
 }
 
-#main-menu li span{
+.main-menu li span{
     display:inline-block;
     padding-top:25px;
     padding-bottom:2px;
 }
 
 
-#main-menu a:hover span{
+.main-menu a:hover span{
     text-decoration:underline;
 }
