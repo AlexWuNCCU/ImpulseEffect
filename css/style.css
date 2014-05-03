@@ -1,13 +1,17 @@
 body,
-html,th{
+html,{
 	font-family: 'Open Sans', 'wt011', sans-serif; 
 	font-size:13px;
 	color: white;
 	background-image: url(http://subtlepatterns.com/patterns/dark_mosaic.png); background-position: initial initial; background-repeat: initial initial;
 }
 
-
-
+th{
+	font-family: sans-serif;
+		font-size:13px;
+	color: white;
+}
+	
 ol, ul {
 	font-size:21px;	
     list-style: none;
@@ -81,7 +85,6 @@ ol, ul {
 }
 
 .Reservation{
-	font-family: sans-serif;
 	position: relative;
 	margin-top:100px;
 	left: -80px;
