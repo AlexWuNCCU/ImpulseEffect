@@ -111,6 +111,7 @@ ol, ul {
 }
 
 .form_fill{
+	font: sans-serif;
 	font-size: 15pt;
 	position: relative;
 	margin-left: 1000px;
