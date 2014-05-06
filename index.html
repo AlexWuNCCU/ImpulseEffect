@@ -1,397 +1,496 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Escape Velocity 2.5 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-
-<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>脈衝效應</title>
-
-	<link href="./css/style.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" href="css/960_24_col.css" />
-	<script src="./css/jquery.js"></script>
-
-		<script type="text/javascript">var _jf = _jf || [];_jf.push(['_setAppId','1164965acMEn9-j2WHIrfBi_AXBUMQ1KBQtCmTuHINl8BW-mzXjtUyrFC2DOqMONO_rpq94AxKsYNs5eitKzHFIiHfLLO6jMpNEdl4Pk6cEy4fJdsuqUqEoArEJOnlyHysKr_PNOubc2Bq_EI-3S13hHOleDJxmFS7gVkvDQpzodcy1YT3Q=']);_jf.push(['p','27923']);_jf.push(['_setFont','wt011','css','.wt011']);_jf.push(['_setFont','wt011','css','body']);_jf.push(['_setFont','wt011','alias','wt011']);(function(f,q,c,h,e,i,r,d){var k=f._jf;if(k.constructor===Object){return}var l,t=q.getElementsByTagName("html")[0],a=function(u){for(var v in k){if(k[v][0]==u){if(false===k[v][1].call(k)){break}}}},j=/\S+/g,o=/[\t\r\n\f]/g,b=/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,g="".trim,s=g&&!g.call("\uFEFF\xA0")?function(u){return u==null?"":g.call(u)}:function(u){return u==null?"":(u+"").replace(b,"")},m=function(y){var w,z,v,u,x=typeof y==="string"&&y;if(x){w=(y||"").match(j)||[];z=t[c]?(" "+t[c]+" ").replace(o," "):" ";if(z){u=0;while((v=w[u++])){if(z.indexOf(" "+v+" ")<0){z+=v+" "}}t[c]=s(z)}}},p=function(y){var w,z,v,u,x=arguments.length===0||typeof y==="string"&&y;if(x){w=(y||"").match(j)||[];z=t[c]?(" "+t[c]+" ").replace(o," "):"";if(z){u=0;while((v=w[u++])){while(z.indexOf(" "+v+" ")>=0){z=z.replace(" "+v+" "," ")}}t[c]=y?s(z):""}}},n;k.push(["_eventActived",function(){p(h);m(e)}]);k.push(["_eventInactived",function(){p(h);m(i)}]);k.addScript=n=function(u,A,w,C,E,B){E=E||function(){};B=B||function(){};var x=q.createElement("script"),z=q.getElementsByTagName("script")[0],v,y=false,D=function(){x.src="";x.onerror=x.onload=x.onreadystatechange=null;x.parentNode.removeChild(x);x=null;a("_eventInactived");B()};if(C){v=setTimeout(function(){D()},C)}x.type=A||"text/javascript";x.async=w;x.onload=x.onreadystatechange=function(G,F){if(!y&&(!x.readyState||/loaded|complete/.test(x.readyState))){y=true;if(C){clearTimeout(v)}x.src="";x.onerror=x.onload=x.onreadystatechange=null;x.parentNode.removeChild(x);x=null;if(!F){setTimeout(function(){E()},200)}}};x.onerror=function(H,G,F){if(C){clearTimeout(v)}D();return true};x.src=u;z.parentNode.insertBefore(x,z)};a("_eventPreload");m(h);n(r,"text/javascript",false,3000)})(this,this.document,"className","jf-loading","jf-active","jf-inactive","//ds.justfont.com/js/stable/v/2.7/id/119028783635");</script>
-
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='nofollow' type='text/css'>
-
-	<script type="text/javascript">var _jf = _jf || [];_jf.push(['_setAppId','1164965acMEn9-j2WHIrfBi_AXBUMQ1KBQtCmTuHINl8BW-mzXjtUyrFC2DOqMONO_rpq94AxKsYNs5eitKzHFIiHfLLO6jMpNEdl4Pk6cEy4fJdsuqUqEoArEJOnlyHysKr_PNOubc2Bq_EI-3S13hHOleDJxmFS7gVkvDQpzodcy1YT3Q=']);_jf.push(['p','27923']);_jf.push(['_setFont','wt011','css','.wt011']);_jf.push(['_setFont','wt011','css','boy']);_jf.push(['_setFont','wt011','alias','wt011']);(function(f,q,c,h,e,i,r,d){var k=f._jf;if(k.constructor===Object){return}var l,t=q.getElementsByTagName("html")[0],a=function(u){for(var v in k){if(k[v][0]==u){if(false===k[v][1].call(k)){break}}}},j=/\S+/g,o=/[\t\r\n\f]/g,b=/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,g="".trim,s=g&&!g.call("\uFEFF\xA0")?function(u){return u==null?"":g.call(u)}:function(u){return u==null?"":(u+"").replace(b,"")},m=function(y){var w,z,v,u,x=typeof y==="string"&&y;if(x){w=(y||"").match(j)||[];z=t[c]?(" "+t[c]+" ").replace(o," "):" ";if(z){u=0;while((v=w[u++])){if(z.indexOf(" "+v+" ")<0){z+=v+" "}}t[c]=s(z)}}},p=function(y){var w,z,v,u,x=arguments.length===0||typeof y==="string"&&y;if(x){w=(y||"").match(j)||[];z=t[c]?(" "+t[c]+" ").replace(o," "):"";if(z){u=0;while((v=w[u++])){while(z.indexOf(" "+v+" ")>=0){z=z.replace(" "+v+" "," ")}}t[c]=y?s(z):""}}},n;k.push(["_eventActived",function(){p(h);m(e)}]);k.push(["_eventInactived",function(){p(h);m(i)}]);k.addScript=n=function(u,A,w,C,E,B){E=E||function(){};B=B||function(){};var x=q.createElement("script"),z=q.getElementsByTagName("script")[0],v,y=false,D=function(){x.src="";x.onerror=x.onload=x.onreadystatechange=null;x.parentNode.removeChild(x);x=null;a("_eventInactived");B()};if(C){v=setTimeout(function(){D()},C)}x.type=A||"text/javascript";x.async=w;x.onload=x.onreadystatechange=function(G,F){if(!y&&(!x.readyState||/loaded|complete/.test(x.readyState))){y=true;if(C){clearTimeout(v)}x.src="";x.onerror=x.onload=x.onreadystatechange=null;x.parentNode.removeChild(x);x=null;if(!F){setTimeout(function(){E()},200)}}};x.onerror=function(H,G,F){if(C){clearTimeout(v)}D();return true};x.src=u;z.parentNode.insertBefore(x,z)};a("_eventPreload");m(h);n(r,"text/javascript",false,3000)})(this,this.document,"className","jf-loading","jf-active","jf-inactive","//ds.justfont.com/js/stable/v/2.7/id/119028783635");</script>
-
-
-	
+<head>
+<title>Impulse Effect</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900" rel="stylesheet" />
+<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+<script src="http://www.parsecdn.com/js/parse-1.2.18.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/enroll.js"></script>
+<script src="js/jquery.dropotron.min.js"></script>
+<script src="js/config.js"></script>
+<script src="js/skel.min.js"></script>
+<script src="js/skel-panels.min.js"></script>
+<noscript>
+	<link rel="stylesheet" href="css/skel-noscript.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/style-desktop.css" />
+</noscript>
 </head>
+<body class="homepage">
 
-<body >
+<!-- Header Wrapper -->
+<div id="header-wrapper" class="wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="12u">
 
-	<nav class="container_24">
-		<ul id="main-menu">
-		   	<li class="m1 active">
-				<a href="#top">
-				    <span>
-				    預告片
-				    </span>
-				</a>
-		    </li>
-		   	<li class="m2">
-				<a href="#introduction">
-				    <span>
-					簡介
-			    	</span>
-				</a>
-		    </li>
-		    <li class="m3">
-				<a href="#Reservation">
-				    <span>
-					預約
-				    </span>
-			</a>
-		    </li>
-		    <li class="m4">
-				<a href="#staff">
-				    <span>
-				    工作人員
-				    </span>
-				</a>
-		    </li>
-			    <li class="m5">
-				<a href="#relate">
-				    <span>
-					網站連結
-				    </span>
-				</a>
-		    </li>
-		</ul>
-	</nav><a  name = "top"/>
-	<article class = "content_video container_24">
-		<div class="grid_16  prefix_1 alpha">
-			<iframe class = "video" width="853" height="480" src="//www.youtube.com/embed/f9NZamLOdMg" frameborder="0" allowfullscreen></iframe>
+				<!-- Header -->
+				<div id="header">
+
+					<!-- Logo -->
+					<div id="logo">
+						<iframe width="682" height="384" src="//www.youtube.com/embed/f9NZamLOdMg" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li class="current_page_item"><a href="#">Home</a></li>
+							<li class="current_page_item"><a href="#intro">Impulse Effect </a></li>
+							<li><a href="#re">Reservation</a></li>
+							<li><a href="#our">Our team</a></li>
+						</ul>
+					</nav>
+					<!-- /Nav -->
+
 				</div>
-		<div class = "clear"></div>
-		<a  name = "introduction"/>
-	</article>
+				<!-- /Header -->
 
-	<article class = "introduction container_24" id="section-discussion">
-
-		<img class="intro_pic1 grid_10" src="./css/DI15.png" alt="Mooncamp" width="400" height="240" >
-		<div class= "clear"></div>
-		<div class = "intro_words1">
-			專案名稱 :  脈衝效應 - Impulse Effect<br>
-			專案等級 : Top Secret<br>
-			專案期限 :  5/23 - 5/29<br>	
-			專案位址 : 數位藝術中心
+			</div>
 		</div>
-		<div class= "clear"></div>
-		<div class = "grid_15 intro_words2">
-			專案信息 :<br>
-			如果人的記憶可以被分享、存取、複製，世界會變成什麼樣子?<br>
-			2050年的台灣，科技進步但貧富懸殊。當時，一家大型企業下的科技公司正在著手研發一項讓記憶可以被分享、存取和複製的技術，然而，負責研發的黃柏文和助理－陳寬卻意外捲入一樁謀殺案，究竟隱藏在背後的真相是……
+	</div>
+</div>
+<!-- /Header Wrapper -->
+
+<!-- Intro Wrapper -->
+<div id="intro-wrapper" class="wrapper wrapper-style1">
+	<div class="title"><a id="intro"> </a>Impulse Effect</div>
+	<div class="container">
+		<div class="row">
+			<div class="12u">
+
+				<!-- Intro -->
+				<section id="intro">
+					<p class="style1"><strong>互動電影:脈衝效應</strong></p>
+					<p class="style2">
+					<div class="time">
+						<p>展出時間 : 5/23 - 5/29 
+						展覽地點 : 數位藝術中心
+						製作單位  :國立政治大學第二屆數位內容學程
+						</p>
+					</div>
+					<img src="images/intro.jpg">
+					</p>
+
+				</section>
+				<!-- /Intro -->
+
+			</div>
 		</div>
-		<img class="intro_pic2 grid_9" src="./css/DI09.png" alt="Mooncamp" width="400" height="240" >
-		<div class= "clear"></div>
-		<a  name = "Reservation"/>
-	</article>
+	</div>
+</div>
+<!-- /Intro Wrapper -->
 
-	<article class = "Reservation" >
-		<section class="container_24" id="section-navigate">
-			<table border = "1" class = "grid_16">
-				<tr>
-					<th>Date</th>
-					<th>5/23 Fri.</th>
-					<th>5/24 Sat.</th>
-					<th>5/25 Sun.</th>
-					<th>5/26 Mon.</th>
-					<th>5/27 Tue.</th>
-					<th>5/28 Wed.</th>
-					<th>5/29 Thu.</th>
-				</tr>
-				<tr>
-					<th>10:10 - 10:40</th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-				</tr>
-				<tr>
-					<th>10:40 - 11:10</th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-				</tr>
-				<tr>
-					<th>11:10 - 11:40</th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-				</tr>
-				<tr>
-					<th>11:40 - 12:10</th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-				</tr>
-				<tr>
-					<th>12:10 - 12:40</th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-				</tr>
-				<tr>
-					<th>12:40 - 13:10</th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-				</tr>
-				<tr>
-					<th>13:10 - 13:40</th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-				</tr>
-				<tr>
-					<th>13:40 - 14:10</th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-				</tr>
-				<tr>
-					<th>14:10 - 14:40</th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-				</tr>
-				<tr>
-					<th>14:40 - 15:10</th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-				</tr>
-				<tr> 	
-					<th>15:10 - 15:40</th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-				</tr>
-				<tr>
-					<th>15:40 - 16:10</th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-				</tr>
-				<tr>
-					<th>16:10 - 16:40</th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-				</tr>
-				<tr>
-					<th>16:40 - 17:10</th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-				</tr>
-				<tr>
-					<th>17:10 - 17:40</th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-				</tr>
-				<tr>
-					<th>17:40 - 18:10</th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-				</tr>
-				<tr>
-					<th>18:10 - 18:40</th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-				</tr>
-				<tr>
-					<th>18:40 - 19:10</th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-				</tr>
-				<tr>
-					<th>19:10 - 19:40</th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-					<th></th>
-				</tr>
-			</table>
+<!-- Main Wrapper -->
+<div class="wrapper wrapper-style2">
+	<div class="title"><a id="re"></a>Reservation</div>
+	<div class="container">
+		<div class="row">
+			<div class="12u">
 
-		</section>
-		<div class= "clear"></div>
-		<section class="form_fill">
-			<form action="http://postecho.heroku.com/" method="post">
-  			<p>
-    			<label for="what">姓名</label>
-    			<input type="text" name="w" id="what">
-  			</p>
-  			<p>
-    			<label for="what">系級</label>
-    			<input type="text" name="w" id="what">
-  			</p>
-  			<p>
-    			<label for="what">學號</label>
-    			<input type="text" name="w" id="what">
-  			</p>
-  			<p>
-    			<label for="what">電話</label>
-    			<input type="text" name="w" id="what">
-  			</p>
-  			<p>
-  				日期
-  				<select name="entry.3.single" id="entry_586761352" aria-label="1222  ">
-  					<option value="5/23">5/23</option>
-					<option value="5/24">5/24</option>
-					<option value="5/25">5/25</option>
-					<option value="5/26">5/26</option>
-					<option value="5/27">5/27</option>
-					<option value="5/28">5/28</option>
-					<option value="5/29">5/29</option>
-				</select>
-			</p>
-			<p>
-				時段
-				<select name="entry.3.single" id="entry_586761352" aria-label="1222  ">
-  					<option value="10:10 - 10:40">10:10 - 10:40</option>
-  					<option value="10:40 - 11:10">10:40 - 11:10</option>
-  					<option value="11:10 - 11:40">11:10 - 11:40</option>
-  					<option value="11:40 - 12:10">11:40 - 12:10</option>
-  					<option value="12:10 - 12:40">12:10 - 12:40</option>
-  					<option value="12:40 - 13:10">12:40 - 13:10</option>
-  					<option value="13:10 - 13:40">13:10 - 13:40</option>
-  					<option value="13:40 - 14:10">13:40 - 14:10</option>
-  					<option value="14:10 - 14:40">14:10 - 14:40</option>
-  					<option value="14:40 - 15:10">14:40 - 15:10</option>
-  					<option value="15:10 - 15:40">15:10 - 15:40</option>
-  					<option value="15:40 - 16:10">15:40 - 16:10</option>
-  					<option value="16:10 - 16:40">16:10 - 16:40</option>
-  					<option value="16:40 - 17:10">16:40 - 17:10</option>
-  					<option value="17:10 - 17:40">17:10 - 17:40</option>
-  					<option value="17:40 - 18:10">17:40 - 18:10</option>
-  					<option value="18:10 - 18:40">18:10 - 18:40</option>
-  					<option value="18:40 - 19:10">18:40 - 19:10</option>
-  					<option value="19:10 - 19:40">19:10 - 19:40</option>
-				</select>
-			</p>
-			<p>
-    			<label for="what">人數</label>
-    			<input type="text" name="w" id="what">
-    			<input type="submit" name="submit" value="Submit">
-  			</p>
-  			<img class="form_pic" src="./css/DI11.png" alt="Mooncamp" width="450" height="165" >
-		</section>	
-		<div class = "staff_location"><a  name = "staff"/></div>
-	</article>
+				<!-- Main -->
+				<div id="main">
 
-	<article class = "staff grid_16">
-		<img class="staff_pic" src="./css/staff.jpg" alt="Mooncamp" width="640" height="480" >
-		<section class = "staff_words"> 
-		科技組<br>
-			指導老師：余能豪<br>
-			組長：洪湛閎<br>
-			組員：洪湛閎、詹伊婷、吳育嘉、<br>藍萱、湯浩澤<br>
-			<br>
-		內容組<br>
-			導演：湯浩澤<br>
-			編劇：吳育嘉、王嘉琳、簡士頡<br>
-			製片：林郁霖、謝旅揚<br>
-			攝影：黃子然、游原叡、何承昱<br>
-			場務：郭姿佑、高嘉鴻、劉進銘<br>
-			妝髮：謝宛霖<br>
-			道具：曾紀昀、謝佳恩<br>
-			美術設計：簡士頡<br>
-			平面設計：黃維萱<br>
-			配樂：吳奕宏<br>
-			CG動畫：江秉穆<br>
-			剪輯：湯浩澤、謝佳恩<br>
-		</section>
-	</article>
+					<table border = "1" class = "form">
+						<tr>
+							<th>Date</th>
+							<th>5/23 Fri.</th>
+							<th>5/24 Sat.</th>
+							<th>5/25 Sun.</th>
+							<th>5/26 Mon.</th>
+							<th>5/27 Tue.</th>
+							<th>5/28 Wed.</th>
+							<th>5/29 Thu.</th>
+						</tr>
+						<tr>
+							<th>10:10 - 10:40</th>
+							<th id="c1"></th>
+							<th id="c2"></th>
+							<th id="c3"></th>
+							<th id="c4"></th>
+							<th id="c5"></th>
+							<th id="c6"></th>
+							<th id="c7"></th>	
+						</tr>
+						<tr>
+							<th>10:40 - 11:10</th>
+							<th id="c8"></th>
+							<th id="c9"></th>
+							<th id="c10"></th>
+							<th id="c11"></th>
+							<th id="c12"></th>
+							<th id="c13"></th>
+							<th id="c14"></th>
+						</tr>
+						<tr>
+							<th>11:10 - 11:40</th>
+							<th id="c15"></th>
+							<th id="c16"></th>
+							<th id="c17"></th>
+							<th id="c18"></th>
+							<th id="c19"></th>
+							<th id="c20"></th>
+							<th id="c21"></th>
+						</tr>
+						<tr>
+							<th>11:40 - 12:10</th>
+							<th id="c22"></th>
+							<th id="c23"></th>
+							<th id="c24"></th>
+							<th id="c25"></th>
+							<th id="c26"></th>
+							<th id="c27"></th>
+							<th id="c28"></th>
+						</tr>
+						<tr>
+							<th>12:10 - 12:40</th>
+							<th id="c29"></th>
+							<th id="c30"></th>
+							<th id="c31"></th>
+							<th id="c32"></th>
+							<th id="c33"></th>
+							<th id="c34"></th>
+							<th id="c35"></th>
+						</tr>
+						<tr>
+							<th>12:40 - 13:10</th>
+							<th id="c36"></th>
+							<th id="c37"></th>
+							<th id="c38"></th>
+							<th id="c39"></th>
+							<th id="c40"></th>
+							<th id="c41"></th>
+							<th id="c42"></th>
+						</tr>
+						<tr>
+							<th>13:10 - 13:40</th>
+							<th id="c43"></th>
+							<th id="c44"></th>
+							<th id="c45"></th>
+							<th id="c46"></th>
+							<th id="c47"></th>
+							<th id="c48"></th>
+							<th id="c49"></th>
+						</tr>
+						<tr>
+							<th>13:40 - 14:10</th>
+							<th id="c50"></th>
+							<th id="c51"></th>
+							<th id="c52"></th>
+							<th id="c53"></th>
+							<th id="c54"></th>
+							<th id="c55"></th>
+							<th id="c56"></th>
+						</tr>
+						<tr>
+							<th>14:10 - 14:40</th>
+							<th id="c57"></th>
+							<th id="c58"></th>
+							<th id="c59"></th>
+							<th id="c60"></th>
+							<th id="c61"></th>
+							<th id="c62"></th>
+							<th id="c63"></th>
+						</tr>
+						<tr>
+							<th>14:40 - 15:10</th>
+							<th id="c64"></th>
+							<th id="c65"></th>
+							<th id="c66"></th>
+							<th id="c67"></th>
+							<th id="c68"></th>
+							<th id="c69"></th>
+							<th id="c70"></th>
+						</tr>
+						<tr> 	
+							<th>15:10 - 15:40</th>
+							<th id="c71"></th>
+							<th id="c72"></th>
+							<th id="c73"></th>
+							<th id="c74"></th>
+							<th id="c75"></th>
+							<th id="c76"></th>
+							<th id="c77"></th>
+						</tr>
+						<tr>
+							<th>15:40 - 16:10</th>
+							<th id="c78"></th>
+							<th id="c79"></th>
+							<th id="c80"></th>
+							<th id="c81"></th>
+							<th id="c82"></th>
+							<th id="c83"></th>
+							<th id="c84"></th>
+						</tr>
+						<tr>
+							<th>16:10 - 16:40</th>
+							<th id="c85"></th>
+							<th id="c86"></th>
+							<th id="c87"></th>
+							<th id="c88"></th>
+							<th id="c89"></th>
+							<th id="c90"></th>
+							<th id="c91"></th>
+						</tr>
+						<tr>
+							<th>16:40 - 17:10</th>
+							<th id="c92"></th>
+							<th id="c93"></th>
+							<th id="c94"></th>
+							<th id="c95"></th>
+							<th id="c96"></th>
+							<th id="c97"></th>
+							<th id="c98"></th>
+						</tr>
+						<tr>
+							<th>17:10 - 17:40</th>
+							<th id="c99"></th>
+							<th id="c100"></th>
+							<th id="c101"></th>
+							<th id="c102"></th>
+							<th id="c103"></th>
+							<th id="c104"></th>
+							<th id="c105"></th>
+						</tr>
+						<tr>
+							<th>17:40 - 18:10</th>
+							<th id="c106"></th>
+							<th id="c107"></th>
+							<th id="c108"></th>
+							<th id="c109"></th>
+							<th id="c110"></th>
+							<th id="c111"></th>
+							<th id="c112"></th>
+						</tr>
+						<tr>
+							<th>18:10 - 18:40</th>
+							<th id="c113"></th>
+							<th id="c114"></th>
+							<th id="c115"></th>
+							<th id="c116"></th>
+							<th id="c117"></th>
+							<th id="c118"></th>
+							<th id="c119"></th>
+						</tr>
+						<tr>
+							<th>18:40 - 19:10</th>
+							<th id="c120"></th>
+							<th id="c121"></th>
+							<th id="c122"></th>
+							<th id="c123"></th>
+							<th id="c124"></th>
+							<th id="c125"></th>
+							<th id="c126"></th>
+						</tr>
+						<tr>
+							<th>19:10 - 19:40</th>
+							<th id="c127"></th>
+							<th id="c128"></th>
+							<th id="c129"></th>
+							<th id="c130"></th>
+							<th id="c131"></th>
+							<th id="c132"></th>
+							<th id="c133"></th>
+						</tr>
+					</table>
 
-	<article class = "related_websites">
-		
-		<a href="https://www.facebook.com/ImpulseEffect">
-			<img src="./css/impulse.jpg"  class = "impulse_href" width="800" height="250">
-		</a>
-		<a href="https://www.facebook.com/dctBrain2014?fref=ts">
-			<img src="./css/brain.png"  class = "impulse_href" width="800" height="250">
-		</a>
-		<a  name = "relate"/>
-	</article>
+					<div class= "clear"></div>
+					<section class="form_fill">
+						<div id="reservation">
+							<p>
+							<label>姓名</label>
+							<input type="text" id="name">
+							</p>
+							<p>
+							<label>系級</label>
+							<input type="text" id="department">
+							</p>
+							<p class = "second_asile">
+							<label>學號</label>
+							<input type="text" id="id">
+							</p>
+							<p class = "second_asile">
+							<label>電話</label>
+							<input type="text" id="phone">
+							</p>
+							<section class = "bottom_form">
+								<p>
+								日期
+								<select id="dateSelect">
+									<option value="5/23">5/23</option>
+									<option value="5/24">5/24</option>
+									<option value="5/25">5/25</option>
+									<option value="5/26">5/26</option>
+									<option value="5/27">5/27</option>
+									<option value="5/28">5/28</option>
+									<option value="5/29">5/29</option>
+								</select>
+								</p>
+
+								<p>
+								時段
+								<select id="timeSelect">
+									<option value="10:10 - 10:40">10:10 - 10:40</option>
+									<option value="10:40 - 11:10">10:40 - 11:10</option>
+									<option value="11:10 - 11:40">11:10 - 11:40</option>
+									<option value="11:40 - 12:10">11:40 - 12:10</option>
+									<option value="12:10 - 12:40">12:10 - 12:40</option>
+									<option value="12:40 - 13:10">12:40 - 13:10</option>
+									<option value="13:10 - 13:40">13:10 - 13:40</option>
+									<option value="13:40 - 14:10">13:40 - 14:10</option>
+									<option value="14:10 - 14:40">14:10 - 14:40</option>
+									<option value="14:40 - 15:10">14:40 - 15:10</option>
+									<option value="15:10 - 15:40">15:10 - 15:40</option>
+									<option value="15:40 - 16:10">15:40 - 16:10</option>
+									<option value="16:10 - 16:40">16:10 - 16:40</option>
+									<option value="16:40 - 17:10">16:40 - 17:10</option>
+									<option value="17:10 - 17:40">17:10 - 17:40</option>
+									<option value="17:40 - 18:10">17:40 - 18:10</option>
+									<option value="18:10 - 18:40">18:10 - 18:40</option>
+									<option value="18:40 - 19:10">18:40 - 19:10</option>
+									<option value="19:10 - 19:40">19:10 - 19:40</option>
+								</select>
+								</p>
+
+								<p>
+								<label>人數</label>
+								<input type="text" id="amount">
+								<input type="submit" id="submit">
+								</p>
+							</section>
+						</div>
+					</section>
+				</div>
+				<!-- /Main -->
+
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /Main Wrapper -->
+
+
+<!-- Footer Wrapper -->
+<div id="footer-wrapper" class="wrapper">
+	<div class="title"><a id="our"></a>Our team</div>
+	<div class="container">
+		<div class="row">
+			<div class="12u">
+
+				<!-- Footer -->
+				<div id="footer">
+
+
+					<div>
+						<div class="row">
+							<div class="6u">
+
+								<img src="images/staff.jpg">
+
+								<div id="facebook">
+									<h3>Impulse Effect Facebook</h3>
+									<a href="https://www.facebook.com/ImpulseEffect"><img src="images/impulse.jpg"></a>
+									<h3>Brain Department Store Facebook</h3>
+									<a href="https://www.facebook.com/dctBrain2014?fref=ts"><img src="images/brain.png"> </a>
+								</div>
+
+
+							</div>
+							<div class="6u">
+
+								<!-- Contacts -->
+								<section class="footer-two">
+									<div class="feature-list feature-list-small">
+										<div>
+											<div class="row">
+												<div class="6u">
+													<section>
+														<h3 >科技組</h3>
+														<p>
+														指導老師：余能豪<br />
+														組長：洪湛閎<br />
+														組員：<br/>洪湛閎、詹伊婷、吳育嘉、藍萱、湯浩澤
+														</p>
+													</section>
+												</div>
+												<div class="6u">
+													<section>
+														<h3 >內容組</h3>
+														<p>
+														導演：湯浩澤<br />
+														編劇：吳育嘉、王嘉琳、簡士頡<br />
+														製片：林郁霖、謝旅揚<br/>
+														攝影：黃子然、何承昱<br/>
+														配樂：吳奕宏<br/>
+														CG動畫：江秉穆<br/>
+														剪輯：湯浩澤、謝佳恩<br/>
+														</p>
+													</section>
+												</div>
+											</div>
+											<div class="row">
+												<div class="6u">
+													<section>
+														<h3 >內容組</h3>
+														<p>
+														場務：郭姿佑、高嘉鴻、劉進銘<br />
+														妝髮：謝宛霖<br />
+														道具：曾紀昀、謝佳恩<br/>
+														美術設計：簡士頡<br/>
+														平面設計：黃維萱
+
+														</p>
+													</section>
+												</div>
+												<div class="6u">
+													<section>
+														<h3 >演員</h3>
+														<p>
+
+
+														</p>
+													</section>
+												</div>
+											</div>
+
+
+
+										</div>
+									</div>
+								</section>
+								<!-- /Contacts -->
+
+
+							</div>
+						</div>
+					</div>
+					<hr />
+				</div>
+				<!-- /Footer -->
+
+				<!-- Copyright -->
+				<div id="copyright">
+					<span>
+						&copy; 政治大學數位內容學程
+					</span>
+				</div>
+				<!-- /Copyright -->
+
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /Footer Wrapper -->
 
 </body>
+</html>
